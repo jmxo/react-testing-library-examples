@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import 'jest-dom/extend-expect'
 import {FavoriteNumber} from '../favorite-number'
 
 test('renders a number input with a label "Favorite Number"', () => {

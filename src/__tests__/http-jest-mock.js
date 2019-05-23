@@ -1,6 +1,3 @@
-import 'jest-dom/extend-expect'
-import 'react-testing-library/cleanup-after-each'
-
 import React from 'react'
 import {render, fireEvent, wait} from 'react-testing-library'
 import {GreetingLoader} from '../greeting-loader-01-mocking'
