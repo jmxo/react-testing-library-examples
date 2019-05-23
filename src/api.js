@@ -1,9 +1,7 @@
-function loadGreeting() {
-  return Promise.resolve()
-}
+function loadGreeting() {}
 
-function reportError() {
-  return Promise.resolve()
-}
+function reportError() {}
 
-export {loadGreeting, reportError}
+function savePost() {}
+
+export {loadGreeting, reportError, savePost}
